@@ -129,7 +129,6 @@ const VerProducto = () => {
       fetchData();
     }
   }, [productoData]);
-
   const handleEntrySubmit = async () => {
     try {
       // First create the entry
@@ -614,11 +613,11 @@ const VerProducto = () => {
           variant="contained"
           onClick={() => navigate('/inventario')}
           sx={{
-            backgroundColor: colors.greenAccent[600],
+            backgroundColor: colors.blueAccent[600],
             color: colors.grey[100],
             marginRight: "10px",
             '&:hover': {
-              backgroundColor: colors.greenAccent[700],
+              backgroundColor: colors.blueAccent[700],
             }
           }}
         >
